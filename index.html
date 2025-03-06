@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Les recettes du chef</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<!--Debut Body -->
+<body>
+
+<!-- Debuts de NAV -->
+<section class="shape">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-5">
+        <div class="container-fluid">
+            <img src="./assets/img/307076.svg" id="image" class="filter-white" alt="logo du chef">
+            <a class="navbar-brand" href="./index.html" style="font-weight: bold; font-style: oblique;">Les recettes du chef</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#plats">Nos meilleurs Plats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mocktails">Nos meilleurs Mocktails</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#desserts">Nos meilleurs Desserts</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nos coups de coeurs
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./pages/Poissons.html">A base de poisson</a></li>
+                            <li><a class="dropdown-item" href="./pages/Boisson.html">Boisson sans sucre</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<!-- Fin de NAV -->
+
+<!-- Debut du header -->
+<header id="head">
+<div id="videocarouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <ol class="carousel-indicators" style="list-style-type: none;">
+        <li data-bs-target="#videocarouselExample" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#videocarouselExample" data-bs-slide-to="1"></li>
+        <li data-bs-target="#videocarouselExample" data-bs-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <video class="video-fluid" loop autoplay muted>
+            <source src="./assets/videos/6037344_Chef_Meat_3840x2160.mp4" type="video/mp4" alt="chef assaisone de la viande">
+        </video>
+        <div class="carousel-caption d-none d-md-block">
+            <h4>Nos plats</h4>
+            <p>Venez deguster les saveurs incroyables du chef</p>
+      </div>
+      </div>
+
+      <div class="carousel-item">
+        <video class="video-fluid" loop autoplay muted>
+            <source src="./assets/videos/mocktails.mp4" type="video/mp4" alt="mocktails succulent">
+        </video>
+        <div class="carousel-caption d-none d-md-block">
+            <h4>Nos Mocktails</h4>
+            <p>Testez nos delicieux Mocktails exotiques</p>
+      </div>
+      </div>
+
+      <div class="carousel-item">
+        <video class="video-fluid" loop autoplay muted>
+            <source src="./assets/videos/dessert.mp4" type="video/mp4" alt="coulis de chocolat versé sur des pancakes">
+        </video>
+        <div class="carousel-caption d-none d-md-block">
+            <h4>Nos Desserts</h4>
+            <p>Nos desserts sucrés vous feront fondre</p>
+      </div>
+      </div>
+    </div>
+</div>
+</header>
+    <button class="carousel-control-prev" type="button" data-bs-target="#videocarouselExample" data-bs-slide="prev" style="z-index: 1;">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#videocarouselExample" data-bs-slide="next" style="z-index: 1;">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- Fin du header -->
+
+<!-- Debuts des sections -->
+<section class="shape">
+<!-- Plats principaux -->
+<h2 class="sous-titre" id="plats">Plats principaux</h2>
+<br>
+<section class="flex">
+
+    <div class="card" style="width: 22rem;">
+        <img src="https://assets.afcdn.com/recipe/20230104/139097_w1024h768c1cx1060cy707cxt0cyt0cxb2121cyb1414.jpg" class="card-img-top" alt="Poulet géneral tao">
+        <div class="card-body">
+          <h5 class="card-title">Poulet General Tao</h5>
+          <p class="card-text">Légèrement acidulé et relevé avec une bonne touche de sucre !</p>
+          <a href="./pages/poulet.html" class="btn btn-dark">Voir la recette</a>
+        </div>
+      </div>
+      <div class="card" style="width: 22rem;">
+        <img src="https://www.cherryonmysundae.com/wp-content/uploads/2020/06/mexican-samosas24935-feature.jpg" class="card-img-top" alt="Samosas">
+        <div class="card-body">
+        <h5 class="card-title">Samosas</h5>
+        <p class="card-text">La meilleure invention des illuminatis</p>
+        <a href="./pages/samosas.html" class="btn btn-dark">Voir la recette</a>
+    </div>
+    </div>
+    <div class="card" style="width: 22rem;">
+        <img src="https://littlespicejar.com/wp-content/uploads/2022/04/My-Moms-Beef-Samosa-10-540x720.jpg" class="card-img-top" alt="Samosas Mexicain">
+        <div class="card-body">
+        <h5 class="card-title">Samosas mexicain</h5>
+        <p class="card-text">La meilleure invention des illuminatis Mexicain</p>
+        <a href="./pages/samosas2.html" class="btn btn-dark">Voir la recette</a>
+    </div>
+</section>
+
+<!-- Mocktails -->
+<h2 class="sous-titre" id="mocktails">Mocktails</h2>
+<section class="flex">
+
+    <div class="card" style="width: 22rem;">
+        <img src="https://images.squarespace-cdn.com/content/v1/5bcccf8b9b7d15579477a125/90b3a927-bad4-4c64-bd2f-2f62ea5424a2/Virgin+Mojito.jpg" class="card-img-top" alt="virgin mojito">
+        <div class="card-body">
+          <h5 class="card-title">Virgin Mojito</h5>
+          <p class="card-text">La star des Mocktails</p>
+          <a href="./pages/mojito.html" class="btn btn-dark">Voir la recette</a>
+        </div>
+      </div>
+      <div class="card" style="width: 22rem;">
+        <img src="https://platedcravings.com/wp-content/uploads/2022/06/Virgin-Pina-Colada-Plated-Cravings-9.jpg" class="card-img-top" alt="Pina Colada">
+        <div class="card-body">
+        <h5 class="card-title">Pina Colada</h5>
+        <p class="card-text">Delicieux en été</p>
+        <a href="./pages/pina.html" class="btn btn-dark">Voir la recette</a>
+    </div>
+    </div>
+    <div class="card" style="width: 22rem;">
+        <img src="https://abeautifulmess.com/wp-content/uploads/2024/02/Fish-Bowl-Drink.jpg" class="card-img-top" alt="Blue lagoon">
+        <div class="card-body">
+        <h5 class="card-title">Blue Lagoon</h5>
+        <p class="card-text">Aussi bon qu'il en a l'air</p>
+        <a href="./pages/bluelagoon.html" class="btn btn-dark">Voir la recette</a>
+    </div>
+</section>
+
+<!-- Desserts -->
+
+<h2 class="sous-titre" id="desserts">Desserts</h2>
+<section class="flex">
+
+    <div class="card" style="width: 22rem;">
+        <img src="https://thebluefufu.com/wp-content/uploads/2020/09/IMG_8646-scaled.jpg" class="card-img-top" alt="Beignets Mikaté">
+        <div class="card-body">
+          <h5 class="card-title">Beignets Mikaté</h5>
+          <p class="card-text">On en raffole</p>
+          <a href="./pages/beignet.html" class="btn btn-dark">Voir la recette</a>
+        </div>
+      </div>
+      <div class="card" style="width: 22rem;">
+        <img src="https://files.meilleurduchef.com/mdc/photo/recette/tiramisu-speculoos/tiramisu-speculoos-1200.jpg" class="card-img-top" alt="Tiramisu">
+        <div class="card-body">
+        <h5 class="card-title">Tiramisu</h5>
+        <p class="card-text">Un classique</p>
+        <a href="./pages/tiramisu.html" class="btn btn-dark">Voir la recette</a>
+    </div>
+    </div>
+    <div class="card" style="width: 22rem;">
+        <img src="https://www.delscookingtwist.com/wp-content/uploads/2023/12/Coconut-Snowballs_3-320x320.jpg" class="card-img-top" alt="Raffaello">
+        <div class="card-body">
+        <h5 class="card-title">Raffaello</h5>
+        <p class="card-text">Simple et délicieux</p>
+        <a href="./pages/raffaelo.html" class="btn btn-dark">Voir la recette</a>
+    </div>
+</section>
+</section>
+
+<!-- Fin des sections -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+<!-- Fin Body -->
+
+<!-- Debuts du footer -->
+<section id="foot">
+<footer>
+    <img src="./assets/img/307076.svg" id="image2" class="filter-white" alt="logo du chef">
+    <div>
+        <h4>Suivez-nous</h4>
+        <ul>
+            <li><a href="https://x.com/?lang=fr">X</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Contactez-nous</h4>
+        <p>Les recettes du chef</p>
+        <p>Rue de la recette, 1070 Anderlecht</p>
+        <a href="mailto:recetteduchef@poulet.com">Email: recetteduchef@poulet.com</a>
+    </div>
+    <div>
+        <h4><Label>Les recettes</Label></h4>
+        <ul>
+            <li><a href="./index.html#plats">Nos meilleurs Plats</a></li>
+            <li><a href="./index.html#mocktails">Nos meilleurs Mocktails</a></li>
+            <li><a href="./index.html#desserts">Nos meilleurs Desserts</a></li>
+            <li><a href="./pages/Poissons.html">Plats a base de poisson</a></li>
+            <li><a href="./pages/Boisson.html">Boisson sans sucre</a></li>
+        </ul>
+    </div>
+<p>Copyright 2015©</p>
+</footer>
+</section>
+</html>
