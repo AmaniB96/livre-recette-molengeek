@@ -80,6 +80,14 @@ footer {
     
 }
 
+.carousel-item {
+    margin: 30px;
+    width: 100%;
+    height: 554px;
+    object-fit: cover;
+    object-position:50%;
+}
+
 .carousel-item video {
     margin: 30px;
     width: 100%;
